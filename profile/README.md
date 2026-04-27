@@ -17,14 +17,9 @@ News Community is a different cost structure: LLMs do the structural work that u
 - 💻 **[Become a compute volunteer](https://alaskanews.news/worker/apply)** — donate idle Mac/PC time to process meeting audio
 - 💛 **[Support journalists with credits](https://alaskanews.news/signup)** — credits flow directly to authors whose work you value
 
-## Repos
+## Code
 
-| Repo | Visibility | Purpose |
-|------|------------|---------|
-| [`public`](https://github.com/news-community/public) | **public** | Public-facing surface — stars, general issues, open-sourced extractions |
-| `news-community` | private | Umbrella repo, ties components together via git submodules |
-| `platform` | private | Next.js + Supabase + Effect web app, pipeline worker, Electron compute-volunteer app |
-| `openclaw` | private | Project agent (planned) |
+The platform code is private. The public-facing surface — including open-sourced extractions, public issue tracking, and stars — lives at [`news-community/public`](https://github.com/news-community/public).
 
 For bugs, feature requests, or feedback on the platform, **[open an issue on `public`](https://github.com/news-community/public/issues/new)**.
 
